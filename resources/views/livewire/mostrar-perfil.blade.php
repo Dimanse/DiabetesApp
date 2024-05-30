@@ -193,7 +193,7 @@
     <script>
 
         document.addEventListener('livewire:initialized', () => {
-            @this.on('mostrarAlerta', (historiaId) => {
+            @this.on('mostrarAlerta', historiaId => {
                 Swal.fire({
                     title: '¿Eliminar Perfil?',
                     text: "Un Perfil eliminado no se puede recuperar!!",

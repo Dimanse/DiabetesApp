@@ -12,6 +12,7 @@ class MostrarControles extends Component
     {
         // dd($control->id);
         $control->delete();
+        
     }
     public function render()
     {
